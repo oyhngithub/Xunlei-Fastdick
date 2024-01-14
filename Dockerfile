@@ -1,4 +1,4 @@
-FROM python:2.7-alpine
+FROM --platform=linux/arm64/v8 python:2.7-alpine
 
 COPY swjsq.py /
 
